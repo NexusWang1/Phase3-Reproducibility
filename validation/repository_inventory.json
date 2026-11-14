@@ -12,7 +12,8 @@
   "ddm_best_weight_in_package": "weights/ddm_v3_train_20261001_best.pt",
   "ddm_last_weight_in_package": "weights/ddm_v3_train_20261001_last.pt",
   "gpu_evaluation_rerun": false,
-  "github_uploaded": false,
+  "github_uploaded": true,
+  "github_repository": "https://github.com/NexusWang1/Phase3-Reproducibility",
   "zenodo_doi_created": false,
   "checks": [
     "400-row manifest and unique indices",

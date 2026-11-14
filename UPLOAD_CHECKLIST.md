@@ -30,11 +30,12 @@
 - [ ] Check that no `.env`, credentials, server home paths, private manifests, or unrelated experiment outputs are staged.
 - [ ] Verify `checksums.sha256` after copying to the upload machine.
 - [ ] Test the uploaded ZIP with a ZIP integrity checker and compare its file list with the repository.
-- [ ] Create the GitHub repository and push only after the authors approve public visibility.
-- [ ] Create a GitHub release/tag and link that release to Zenodo.
+- [x] Created the public GitHub repository and pushed the code-only package after the authors approved public visibility: <https://github.com/NexusWang1/Phase3-Reproducibility>.
+- [ ] Create a GitHub release/tag and upload the full archival ZIP.
+- [ ] Link the release to Zenodo when the local network can resolve and access Zenodo.
 - [ ] Reserve/review the Zenodo DOI and add the real repository URL and DOI to the manuscript only after they exist.
 - [ ] Keep the raw public datasets out of the archive unless their terms and the release plan explicitly require redistribution.
 
 ## Current upload state
 
-No GitHub repository or Zenodo record has been created by this packaging step. No new DOI has been obtained. The generated ZIP is a local candidate package, not evidence of public release.
+The code-only package is public on GitHub at <https://github.com/NexusWang1/Phase3-Reproducibility>. The full archival ZIP is a local candidate until its release-asset upload is verified. No Zenodo record has been created and no new DOI has been obtained.
