@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "manifest_rows": 400,
+  "unique_rgb_entries": 400,
+  "unique_source_indices": 400,
+  "fixed_seed": 20261002,
+  "selection_check": "passed: all 400 source indices and rounded brightness values match",
+  "images_check": "passed: 400 RGB and 400 IR files exist and are 640 x 512",
+  "manifest_sha256": "2b92c57c214efe5a4ec0b9849d8f7020cee48828e2efd1a0b1e24b7493e8fc43",
+  "sampling_meta_sha256": "3b256d72d9d5d8a6fa8f96291a8baaa221771ebb6c3e76387871a47c30810d00"
+}

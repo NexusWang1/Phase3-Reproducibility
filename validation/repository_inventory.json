@@ -1,0 +1,28 @@
+{
+  "status": "candidate_package_with_cache_detector_and_ddm_weights",
+  "manifest_rows": 400,
+  "phase3_python_files": 57,
+  "dvhn400_sampling_and_validation_scripts": 2,
+  "depth_cache_pngs_in_package": 400,
+  "depth_cache_status": "complete and validated; see depth_cache/dvhn400/README.md",
+  "raw_images_in_package": 0,
+  "model_weights_in_package": 3,
+  "detector_weight_in_package": "weights/frp_stageA_v1_best.pt",
+  "ddm_checkpoint_in_package": true,
+  "ddm_best_weight_in_package": "weights/ddm_v3_train_20261001_best.pt",
+  "ddm_last_weight_in_package": "weights/ddm_v3_train_20261001_last.pt",
+  "gpu_evaluation_rerun": false,
+  "github_uploaded": false,
+  "zenodo_doi_created": false,
+  "checks": [
+    "400-row manifest and unique indices",
+    "full local image/seed validation passed",
+    "manifest-only validation passed",
+    "all Python files compiled successfully",
+    "400 cached depth maps matched manifest filenames, dimensions, and dtype",
+    "Stage-A detector weight SHA-256 and PyTorch ZIP CRC validated",
+    "DDM best and last SHA-256, PyTorch ZIP CRC, and restricted structure checks validated",
+    "sensitive path and tool-trace scan recorded in companion validation JSON",
+    "final ZIP CRC and byte-for-byte archive validation recorded in companion validation JSON"
+  ]
+}

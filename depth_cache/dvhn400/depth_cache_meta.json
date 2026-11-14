@@ -1,0 +1,17 @@
+{
+  "model": "depth-anything/Depth-Anything-V2-Large",
+  "images_total": 400,
+  "created": 400,
+  "skipped": 0,
+  "seconds": 63.01609722094145,
+  "format": "uint16 PNG; depth=uint16/65535; 1=far",
+  "visuals": [
+    "rgb/00959.jpg",
+    "rgb/02719.jpg",
+    "rgb/05934.jpg",
+    "rgb/05695.jpg",
+    "rgb/04256.jpg",
+    "rgb/08811.jpg"
+  ],
+  "path_normalization": "Visual QA paths were converted from server-absolute paths to DVHN400-relative paths; depth PNG bytes are unchanged."
+}

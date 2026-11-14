@@ -1,0 +1,11 @@
+# Dependency names only. The original server environment was not exported as a lockfile.
+# Use the frozen Phase 2 / ultralytics project environment rather than installing
+# an unrelated current ultralytics release over it.
+numpy
+Pillow
+scipy
+matplotlib
+torch
+transformers
+safetensors
+opencv-python

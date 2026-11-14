@@ -1,0 +1,14 @@
+# Code-only GitHub staging: the full Zenodo ZIP includes the excluded cache/weights.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.pt
+*.pth
+*.safetensors
+runs/
+weights_external/
+data/dvhn400/rgb/
+data/dvhn400/ir/
+depth_cache/dvhn400/rgb/

@@ -1,0 +1,15 @@
+{
+  "source": "DroneVehicle test split (8980 pairs)",
+  "crop": "100px border -> 640x512",
+  "night_rule": "cropped RGB grayscale mean < 50.0",
+  "night_pool": 3260,
+  "sampled": 400,
+  "seed": 20261002,
+  "brightness_percentiles_selected": [
+    0.9,
+    8.5,
+    19.5,
+    33.3,
+    49.9
+  ]
+}
