@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24231012.svg)](https://doi.org/10.5281/zenodo.24231012)
 # Phase 3 reproducibility package: DVHN400, depth-conditioned evaluation, and field-direction analysis
 
 This repository contains the DVHN400 selection manifest, a self-contained fixed-seed sampling script, the complete 400-image DVHN400 depth cache, the frozen Stage-A detector weight, the DDM `best.pt` and `last.pt` checkpoints, and the Phase 3 DDM/3D evaluation code snapshot used for the accompanying manuscript. It is prepared for a code-only GitHub repository and a full Zenodo archival ZIP.
